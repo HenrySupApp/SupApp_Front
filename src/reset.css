@@ -1,0 +1,78 @@
+/* Reset CSS Avanzado */
+
+/* Establece un box-sizing consistente */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Elimina márgenes predeterminados */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure, hr, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+/* Elimina listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Elimina subrayado y otros estilos en enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elimina border en imágenes y otros elementos */
+img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/* Asegura que los formularios hereden font-family */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Elimina bordes y fondo en formularios en IE */
+button, input, select, textarea {
+    background: none;
+    border: none;
+}
+
+/* Elimina apariencia de botones en todos los navegadores */
+button, [role="button"] {
+    cursor: pointer;
+}
+
+/* Elimina borde y relleno en figuras */
+figure {
+    margin: 0;
+}
+
+/* Establece un alto mínimo y una fuente consistente */
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Establece una base consistente para el cuerpo */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Mejora la legibilidad en tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

@@ -1,9 +1,11 @@
-import "./App.css";
+import "./App.css"; 
+import "./reset.css"
+import Home from "./View/Home";
 
 function App() {
     return (
         <>
-            <h1>hola soy ramon</h1>
+            <Home />
         </>
     );
 }
