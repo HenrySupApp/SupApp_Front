@@ -4,7 +4,7 @@ import { useState } from "react";
 import StylesMC from "../Mcomplemetario/StylesMC.module.css";
 
 const MaterialComplementario = () => {
-    const [data, setData] = useState(MC_data);
+    const [data] = useState(MC_data);
 
 
     return (

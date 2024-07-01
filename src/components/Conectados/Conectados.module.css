@@ -1,0 +1,25 @@
+:root {
+    --color-primario: rgb(195, 205, 233);
+}
+
+.conect, .nameConect {
+    background-color: rgb(2, 199, 19);
+}
+.desconect {
+    background-color: rgb(143, 143, 143);
+    text-decoration: line-through;
+}
+.conect, .desconect {
+    padding: .1rem .3rem;
+    margin: auto 1.3rem;
+    border-radius: 3rem;
+    height: .5rem;
+}
+.Name {
+    display: flex;
+}
+ul > li {
+    margin: .5rem 1.6rem;
+    border-bottom: .1rem solid rgba(23, 13, 58, 0.582);
+    color: var(--color-primario);
+}
