@@ -1,0 +1,44 @@
+.container {
+  width: 22rem;
+  height: auto;
+  background: #303054;
+}
+
+h1 {
+  padding: 0.5rem 1rem;
+}
+
+.form {
+  padding: 1rem 2.5rem;
+}
+
+.tarjeta {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tarjeta input {
+  width: 100%;
+  border: none;
+  padding: 0.2rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+}
+
+button {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.3rem;
+  color: #22223b;
+  background: #ead21c;
+  cursor: pointer;
+}

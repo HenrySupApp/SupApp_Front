@@ -1,11 +1,12 @@
 import "./App.css";
+import Login from "./views/login/Login";
 
 function App() {
-    return (
-        <>
-            <h1>hola soy ramon</h1>
-        </>
-    );
+  return (
+    <>
+      <Login />
+    </>
+  );
 }
 
 export default App;
